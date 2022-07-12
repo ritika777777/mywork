@@ -1,9 +1,9 @@
 #include<stdio.h>
 int main()
 {
-int DD,MM,YY;
+int DD,MM,YYYY;
 printf("enter the date:");
-scanf("%d%d%d",&DD,&MM,&YY);
-printf("%d/%d/%d",DD,MM,YY);
+scanf("%d%d%d",&DD,&MM,&YYYY);
+printf("%d/%d/%d",DD,MM,YYYY);
 return 0;
 }
