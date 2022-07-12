@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+    int HH,MM,hour,minute;
+    printf("enter hour and minute:");
+    scanf("%d%d",&HH,&MM);
+    hour=HH;
+    minute=MM;
+    printf("%d hour and %d minute",hour, minute);
+    return 0;
+
+}
