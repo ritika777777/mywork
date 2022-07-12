@@ -1,9 +1,13 @@
 #include<stdio.h>
 int main()
 {
-int DD,MM,YYYY;
+int DD,MM,YYYY,Day,Month,Year;
 printf("enter the date:");
 scanf("%d%d%d",&DD,&MM,&YYYY);
-printf("%d/%d/%d",DD,MM,YYYY);
+Day=DD;
+Month=MM;
+Year=YYYY;
+printf("Day=%d,Month=%d,Year=%d",Day,Month,Year);
 return 0;
 }
+
